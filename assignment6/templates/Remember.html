@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <script type="text/javascript">
+    function register() {
+    var checkname = document.forms["remimber"]["Surname"].value;
+    if (checkname == "") {
+        alert("please enter name");
+        document.getElementById("name").focus();
+        return false;
+    }
+    {
+        var checkUsername = document.forms["remimber"]["Username"].value;
+        if (checkUsername == "") {
+            alert("please enter Username");
+            document.getElementById("username").focus();
+            return false;
+        }
+        var regularP = /^[a-z 0-9-]{8,18}$/;
+        var password = document.forms["remimber"]["Pass"].value;
+        var checkPass = regularP.exec(password);
+        if (!checkPass) {
+            alert("please enter password");
+            document.getElementById("pass").focus();
+            return false;
+        }
+        var regularE = /^([\w_\.= - + ] +)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+        var Email = document.forms["remimber"]["Email"].value;
+        var checkEmail = regularE.exec(Email);
+        if (!checkEmail) {
+            alert("please enter email");
+            document.getElementById("email").focus();
+            return false;
+        }
+        if (!checkName == "" && !checkUsername == "" && checkPass && checkEmail) {
+            alert("Every thing is Success !! ");
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+</script>
+
+</head>
+<body>
+<center><h2>Register</h2>
+<form name="remimber" action="/" ,method = "post" onSubmit="return register()">
+  Surname:
+  <input type="text" name="Surname" id="name">
+  <br><br>
+  Username:
+  <input type="text" name="Username" id="username">
+    <br><br>
+  Email:
+  <input type="text" name="Email" id="email">
+    <br><br>
+    Password:
+  <input type="password" name="Pass" id="pass">
+  <br><br>
+  <input type="submit" value="Submit" id="submit">
+</form>
+    </center>
+</body>
+</html>
