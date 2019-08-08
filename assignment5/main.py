@@ -7,6 +7,9 @@ app = Flask(__name__)
 def index():
    return render_template('Remember.html')
 
+@app.route('/',methods=["post"])
+def Remember():
+    return 'xyz';
 
 
 if __name__ == '__main__':
