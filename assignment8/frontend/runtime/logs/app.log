@@ -1,0 +1,402 @@
+2019-08-22 08:50:39 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#16 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#23 [internal function]: frontend\controllers\SiteController->actionSignup()
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#28 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#30 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#14 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#21 [internal function]: frontend\controllers\SiteController->actionSignup()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2019-08-22 08:50:39 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'ITJ1qaLIdBl-t-1oIO5RhOvvvc4gr0VhfgQ1w3xsdm9jQ0Xm8v8AY02BghgX3ivxpbmFhnPpNTsKfVS2JSskWg=='
+    'SignupForm' => [
+        'username' => 'hohofern'
+        'email' => 'fern@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-26b5e7f7' => 'a9c85537-e9a4-4237-9d62-72fda3ef9656'
+    'advanced-frontend' => '64afca34472c2b7a139fffb890edb601'
+    '_csrf-frontend' => '03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bq0OP7tz36op70zuNV8HSFpZtyauYGR5\";}'
+    'advanced-backend' => '82342cd3c47bcee244fd9c7840eb710c'
+    '_csrf-backend' => '6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51231'
+    'SERVER_SOFTWARE' => 'PHP 7.1.23 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8090'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'HTTP_HOST' => 'localhost:8090'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '227'
+    'HTTP_CONTENT_LENGTH' => '227'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8090'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_REFERER' => 'http://localhost:8090/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-26b5e7f7=a9c85537-e9a4-4237-9d62-72fda3ef9656; advanced-frontend=64afca34472c2b7a139fffb890edb601; _csrf-frontend=03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bq0OP7tz36op70zuNV8HSFpZtyauYGR5%22%3B%7D; advanced-backend=82342cd3c47bcee244fd9c7840eb710c; _csrf-backend=6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1566463839.4525
+    'REQUEST_TIME' => 1566463839
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2019-08-22 09:05:37 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#16 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#23 [internal function]: frontend\controllers\SiteController->actionSignup()
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#28 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#30 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#14 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#21 [internal function]: frontend\controllers\SiteController->actionSignup()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2019-08-22 09:05:37 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'ITJ1qaLIdBl-t-1oIO5RhOvvvc4gr0VhfgQ1w3xsdm9jQ0Xm8v8AY02BghgX3ivxpbmFhnPpNTsKfVS2JSskWg=='
+    'SignupForm' => [
+        'username' => 'hohofern'
+        'email' => 'fern@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-26b5e7f7' => 'a9c85537-e9a4-4237-9d62-72fda3ef9656'
+    'advanced-frontend' => '64afca34472c2b7a139fffb890edb601'
+    '_csrf-frontend' => '03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bq0OP7tz36op70zuNV8HSFpZtyauYGR5\";}'
+    'advanced-backend' => '82342cd3c47bcee244fd9c7840eb710c'
+    '_csrf-backend' => '6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51345'
+    'SERVER_SOFTWARE' => 'PHP 7.1.23 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8090'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'HTTP_HOST' => 'localhost:8090'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '227'
+    'HTTP_CONTENT_LENGTH' => '227'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ORIGIN' => 'http://localhost:8090'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_REFERER' => 'http://localhost:8090/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-26b5e7f7=a9c85537-e9a4-4237-9d62-72fda3ef9656; advanced-frontend=64afca34472c2b7a139fffb890edb601; _csrf-frontend=03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bq0OP7tz36op70zuNV8HSFpZtyauYGR5%22%3B%7D; advanced-backend=82342cd3c47bcee244fd9c7840eb710c; _csrf-backend=6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1566464737.7833
+    'REQUEST_TIME' => 1566464737
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2019-08-22 09:07:10 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#16 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#23 [internal function]: frontend\controllers\SiteController->actionSignup()
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#28 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#30 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(380): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(399): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(57): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(248): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(846): yii\db\Schema->getQueryBuilder()
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Query.php(421): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(187): yii\db\Query->exists()
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(145): yii\validators\UniqueValidator->modelExists('\\common\\models\\...', Array, Object(frontend\models\SignupForm))
+#14 [internal function]: yii\validators\UniqueValidator->yii\validators\{closure}(Object(yii\db\Connection))
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1075): call_user_func(Object(Closure), Object(yii\db\Connection))
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/UniqueValidator.php(146): yii\db\Connection->useMaster(Object(Closure))
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), 'username')
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/models/SignupForm.php(47): yii\base\Model->validate()
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/controllers/SiteController.php(156): frontend\models\SignupForm->signup()
+#21 [internal function]: frontend\controllers\SiteController->actionSignup()
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#23 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#24 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#25 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#26 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php(17): yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2019-08-22 09:07:10 [127.0.0.1][-][64afca34472c2b7a139fffb890edb601][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf-frontend' => 'cy4kwZoxH7AWAl2BpQd4FdqRP_OvIjQw-SmAUV21mXwxXxSOygZryiU0MvGSNwJglMcHu_xkRGqNUOEkBPLLSQ=='
+    'SignupForm' => [
+        'username' => 'fern'
+        'email' => 'fern@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-26b5e7f7' => 'a9c85537-e9a4-4237-9d62-72fda3ef9656'
+    'advanced-frontend' => '64afca34472c2b7a139fffb890edb601'
+    '_csrf-frontend' => '03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bq0OP7tz36op70zuNV8HSFpZtyauYGR5\";}'
+    'advanced-backend' => '82342cd3c47bcee244fd9c7840eb710c'
+    '_csrf-backend' => '6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51405'
+    'SERVER_SOFTWARE' => 'PHP 7.1.23 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8090'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'HTTP_HOST' => 'localhost:8090'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '223'
+    'HTTP_CONTENT_LENGTH' => '223'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8090'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_REFERER' => 'http://localhost:8090/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-26b5e7f7=a9c85537-e9a4-4237-9d62-72fda3ef9656; advanced-frontend=64afca34472c2b7a139fffb890edb601; _csrf-frontend=03651005b7557f056e6adc9c64d9c2b62cfeeb3d2c00142636451a367bb420e3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bq0OP7tz36op70zuNV8HSFpZtyauYGR5%22%3B%7D; advanced-backend=82342cd3c47bcee244fd9c7840eb710c; _csrf-backend=6ddc177069a2354525f7cb4b4895d9c7ca83425fcb23891dc54259b31dfeaeeea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22JM4N7nwVYHab8VT71H0fvDtOoN2aPuhZ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1566464830.8686
+    'REQUEST_TIME' => 1566464830
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]

@@ -1,0 +1,411 @@
+2019-08-22 09:09:10 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-08-22 09:09:10 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/z6/05h5_sj13zx2qxzyv6gzdp7m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.tZc51WThWg/Render'
+    'TERM_PROGRAM_VERSION' => '421.2'
+    'OLDPWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046'
+    'TERM_SESSION_ID' => '92D6E4E7-90F8-43BD-BB96-3AC098B37D32'
+    'USER' => 'computereducation'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.pDimWXM5Kg/Listeners'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    '_' => '/usr/bin/php'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1566464950.4204
+    'REQUEST_TIME' => 1566464950
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-08-22 09:31:55 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-08-22 09:31:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'Apple_Terminal'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/z6/05h5_sj13zx2qxzyv6gzdp7m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.tZc51WThWg/Render'
+    'TERM_PROGRAM_VERSION' => '421.2'
+    'OLDPWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046'
+    'TERM_SESSION_ID' => '92D6E4E7-90F8-43BD-BB96-3AC098B37D32'
+    'USER' => 'computereducation'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.pDimWXM5Kg/Listeners'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'LC_CTYPE' => 'UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    '_' => '/usr/bin/php'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1566466315.0132
+    'REQUEST_TIME' => 1566466315
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-08-22 10:03:29 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=127....', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost' in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-08-22 10:03:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/z6/05h5_sj13zx2qxzyv6gzdp7m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.5JqD9lXpaZ/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.UzZQdEJF4B/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1566468209.4263
+    'REQUEST_TIME' => 1566468209
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-08-22 10:05:20 [-][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=127....', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=127....', 'root', '', NULL)
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#17 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 /Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8/yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-08-22 10:05:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/z6/05h5_sj13zx2qxzyv6gzdp7m0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.5JqD9lXpaZ/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.UzZQdEJF4B/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/InformationSecurity/CED59-5902041630046/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1566468320.3255
+    'REQUEST_TIME' => 1566468320
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
