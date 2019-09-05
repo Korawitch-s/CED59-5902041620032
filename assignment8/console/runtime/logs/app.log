@@ -409,3 +409,2515 @@ $_SERVER = [
     ]
     'argc' => 2
 ]
+2019-09-05 08:32:20 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672340.2519
+    'REQUEST_TIME' => 1567672340
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:40 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672360.8967
+    'REQUEST_TIME' => 1567672360
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:42 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672362.4549
+    'REQUEST_TIME' => 1567672362
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:43 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672363.3564
+    'REQUEST_TIME' => 1567672363
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:44 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672364.2375
+    'REQUEST_TIME' => 1567672364
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:45 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672365.0709
+    'REQUEST_TIME' => 1567672365
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:45 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672365.9177
+    'REQUEST_TIME' => 1567672365
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:46 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672366.7492
+    'REQUEST_TIME' => 1567672366
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672367.582
+    'REQUEST_TIME' => 1567672367
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672368.3972
+    'REQUEST_TIME' => 1567672368
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:49 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672369.2379
+    'REQUEST_TIME' => 1567672369
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:50 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672370.0559
+    'REQUEST_TIME' => 1567672370
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:50 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672370.8635
+    'REQUEST_TIME' => 1567672370
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:51 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:51 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672371.7275
+    'REQUEST_TIME' => 1567672371
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:32:52 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:32:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672372.5576
+    'REQUEST_TIME' => 1567672372
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:33:55 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:33:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672435.1814
+    'REQUEST_TIME' => 1567672435
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:33:56 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:33:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672436.3729
+    'REQUEST_TIME' => 1567672436
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:33:57 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:33:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672437.309
+    'REQUEST_TIME' => 1567672437
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:33:58 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:33:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672438.0129
+    'REQUEST_TIME' => 1567672438
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:33:58 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:33:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672438.7078
+    'REQUEST_TIME' => 1567672438
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:00 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672440.2986
+    'REQUEST_TIME' => 1567672440
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:00 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672440.9055
+    'REQUEST_TIME' => 1567672440
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:01 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672441.4265
+    'REQUEST_TIME' => 1567672441
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:02 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672442.0197
+    'REQUEST_TIME' => 1567672442
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:02 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672442.6189
+    'REQUEST_TIME' => 1567672442
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:03 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672443.0353
+    'REQUEST_TIME' => 1567672443
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:03 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672443.4908
+    'REQUEST_TIME' => 1567672443
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:04 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672443.9866
+    'REQUEST_TIME' => 1567672443
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:04 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672444.4876
+    'REQUEST_TIME' => 1567672444
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:46 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672486.4308
+    'REQUEST_TIME' => 1567672486
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672487.0106
+    'REQUEST_TIME' => 1567672487
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672487.2816
+    'REQUEST_TIME' => 1567672487
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672487.4816
+    'REQUEST_TIME' => 1567672487
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672487.6645
+    'REQUEST_TIME' => 1567672487
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:47 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672487.8527
+    'REQUEST_TIME' => 1567672487
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672488.0292
+    'REQUEST_TIME' => 1567672488
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672488.2491
+    'REQUEST_TIME' => 1567672488
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672488.4212
+    'REQUEST_TIME' => 1567672488
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:34:48 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:34:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672488.5841
+    'REQUEST_TIME' => 1567672488
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:37:02 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "nigrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('nigrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('nigrate/create_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "nigrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('nigrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:37:02 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672622.2892
+    'REQUEST_TIME' => 1567672622
+    'argv' => [
+        0 => 'yii'
+        1 => 'nigrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:39:26 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/create_subject_table in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create_subject_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create_subject_...', Array)
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create_...', Array)
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/create_subject_table". in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create_...', Array)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#3 {main}
+2019-09-05 08:39:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672766.6087
+    'REQUEST_TIME' => 1567672766
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create_subject_table'
+    ]
+    'argc' => 2
+]
+2019-09-05 08:39:54 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] Connection refused in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php:695
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(695): PDO->__construct('mysql:host=127....', 'root', 'root', NULL)
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#6 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(632): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('create_subject_...')
+#14 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create', Array)
+#17 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#18 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#19 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#20 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] Connection refused in /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php:632
+Stack trace:
+#0 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(1012): yii\db\Connection->open()
+#1 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(253): yii\db\Connection->getSlavePdo()
+#3 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(1153): yii\db\Command->prepare(true)
+#4 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/db/Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(632): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate('create_subject_...')
+#12 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('create', Array)
+#15 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('create', Array)
+#16 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#17 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#18 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 /Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2019-09-05 08:39:53 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'TERM_PROGRAM' => 'vscode'
+    'TERM' => 'xterm-256color'
+    'SHELL' => '/bin/bash'
+    'TMPDIR' => '/var/folders/yb/rv4qk5ns2jz552lxkqjrh8300000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.PUWpHwMYbp/Render'
+    'TERM_PROGRAM_VERSION' => '1.37.1'
+    'USER' => 'computereducation'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.Onwv1W0yIb/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'PWD' => '/Users/computereducation/.bitnami/stackman/machines/xampp/volumes/root/htdocs/CED59-5902041620032/assignment8'
+    'LANG' => 'en_US.UTF-8'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '2'
+    'HOME' => '/Users/computereducation'
+    'LOGNAME' => 'computereducation'
+    'SECURITYSESSIONID' => '186a8'
+    'COLORTERM' => 'truecolor'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1567672793.9603
+    'REQUEST_TIME' => 1567672793
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'create_subject_table'
+    ]
+    'argc' => 3
+]
