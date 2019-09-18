@@ -2921,3 +2921,241 @@ $_SERVER = [
     ]
     'argc' => 3
 ]
+2019-09-18 15:24:30 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(1012): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\xampp\htdocs\CED59-5902041620032\assignment8\yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(1012): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\xampp\htdocs\CED59-5902041620032\assignment8\yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-09-18 15:24:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Palm\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => '132090645859791352'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PALM'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Palm'
+    'LOCALAPPDATA' => 'C:\\Users\\Palm\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PALM'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OculusBase' => 'C:\\Program Files\\Oculus\\'
+    'OneDrive' => 'C:\\Users\\Palm\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\Palm\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Python37\\Scripts\\;C:\\Python37\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\Palm\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.2\\bin;D:\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Palm\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PyCharm_Community_Edition' => 'D:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.2\\bin;'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Palm\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Palm\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PALM'
+    'USERDOMAIN_ROAMINGPROFILE' => 'PALM'
+    'USERNAME' => 'Palm'
+    'USERPROFILE' => 'C:\\Users\\Palm'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1568813070.0634
+    'REQUEST_TIME' => 1568813070
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2019-09-18 15:25:34 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(1012): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(999): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#18 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\xampp\htdocs\CED59-5902041620032\assignment8\yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(1012): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(999): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(253): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(1153): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(874): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#16 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\xampp\htdocs\CED59-5902041620032\assignment8\yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2019-09-18 15:25:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Palm\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => '132090645859791352'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PALM'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Palm'
+    'LOCALAPPDATA' => 'C:\\Users\\Palm\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PALM'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OculusBase' => 'C:\\Program Files\\Oculus\\'
+    'OneDrive' => 'C:\\Users\\Palm\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\Palm\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Python37\\Scripts\\;C:\\Python37\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\Palm\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.2\\bin;D:\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Palm\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PyCharm_Community_Edition' => 'D:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.2\\bin;'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Palm\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Palm\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PALM'
+    'USERDOMAIN_ROAMINGPROFILE' => 'PALM'
+    'USERNAME' => 'Palm'
+    'USERPROFILE' => 'C:\\Users\\Palm'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1568813134.091
+    'REQUEST_TIME' => 1568813134
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
