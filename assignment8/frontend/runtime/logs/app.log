@@ -1560,3 +1560,253 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1568813395.113
     'REQUEST_TIME' => 1568813395
 ]
+2019-09-19 10:39:39 [::1][-][n0ot140u70of7st7j6jvrvihji][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2019-09-19 10:39:36 [::1][-][n0ot140u70of7st7j6jvrvihji][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-4854c6e3' => '6458e503-4d88-4553-9cd5-f9e6077dd0d3'
+    '_csrf-frontend' => 'ed1734849a752d99eb2a4aee7f4075cd1359f1c964faa35d10a1883064057a66a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"iATK48T8Q-IWYDa_x9wSKysEXMQ3ILBT\";}'
+    'advanced-frontend' => 'n0ot140u70of7st7j6jvrvihji'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52866'
+    'SERVER_SOFTWARE' => 'PHP 7.1.31 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/frontend/web'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\frontend\\web\\index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-4854c6e3=6458e503-4d88-4553-9cd5-f9e6077dd0d3; _csrf-frontend=ed1734849a752d99eb2a4aee7f4075cd1359f1c964faa35d10a1883064057a66a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22iATK48T8Q-IWYDa_x9wSKysEXMQ3ILBT%22%3B%7D; advanced-frontend=n0ot140u70of7st7j6jvrvihji'
+    'REQUEST_TIME_FLOAT' => 1568882376.6729
+    'REQUEST_TIME' => 1568882376
+]
+2019-09-19 10:40:45 [::1][-][n0ot140u70of7st7j6jvrvihji][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2019-09-19 10:40:43 [::1][-][n0ot140u70of7st7j6jvrvihji][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-4854c6e3' => '6458e503-4d88-4553-9cd5-f9e6077dd0d3'
+    'advanced-frontend' => 'n0ot140u70of7st7j6jvrvihji'
+    'advanced-backend' => '7mtbi4ubc54iu06gsdcl2lc1pq'
+    '_csrf-backend' => 'ad7a57b9ad41db739b1c8c77355c54e586c9b97256c07d1b3a2fa4ef5f32d27ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"4CTQYFV0nehbNUeo1bmlPVz_JuBSaR4L\";}'
+    '_csrf-frontend' => 'bca9c01bb326995be1d452a6fe31ee537b9bfb362bf0b19b483afd07d006593da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"oINcBRLXaR1YNgBzQYJ0VxONQAhjbFFh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52897'
+    'SERVER_SOFTWARE' => 'PHP 7.1.31 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/frontend/web'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\frontend\\web\\index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-4854c6e3=6458e503-4d88-4553-9cd5-f9e6077dd0d3; advanced-frontend=n0ot140u70of7st7j6jvrvihji; advanced-backend=7mtbi4ubc54iu06gsdcl2lc1pq; _csrf-backend=ad7a57b9ad41db739b1c8c77355c54e586c9b97256c07d1b3a2fa4ef5f32d27ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%224CTQYFV0nehbNUeo1bmlPVz_JuBSaR4L%22%3B%7D; _csrf-frontend=bca9c01bb326995be1d452a6fe31ee537b9bfb362bf0b19b483afd07d006593da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22oINcBRLXaR1YNgBzQYJ0VxONQAhjbFFh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1568882443.4996
+    'REQUEST_TIME' => 1568882443
+]
+2019-09-19 10:41:44 [::1][-][n0ot140u70of7st7j6jvrvihji][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2019-09-19 10:41:42 [::1][-][n0ot140u70of7st7j6jvrvihji][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-4854c6e3' => '6458e503-4d88-4553-9cd5-f9e6077dd0d3'
+    'advanced-frontend' => 'n0ot140u70of7st7j6jvrvihji'
+    'advanced-backend' => '7mtbi4ubc54iu06gsdcl2lc1pq'
+    '_csrf-backend' => 'ad7a57b9ad41db739b1c8c77355c54e586c9b97256c07d1b3a2fa4ef5f32d27ba:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"4CTQYFV0nehbNUeo1bmlPVz_JuBSaR4L\";}'
+    '_csrf-frontend' => 'bca9c01bb326995be1d452a6fe31ee537b9bfb362bf0b19b483afd07d006593da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"oINcBRLXaR1YNgBzQYJ0VxONQAhjbFFh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52914'
+    'SERVER_SOFTWARE' => 'PHP 7.1.31 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/frontend/web/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\CED59-5902041620032\\assignment8\\frontend\\web\\index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-4854c6e3=6458e503-4d88-4553-9cd5-f9e6077dd0d3; advanced-frontend=n0ot140u70of7st7j6jvrvihji; advanced-backend=7mtbi4ubc54iu06gsdcl2lc1pq; _csrf-backend=ad7a57b9ad41db739b1c8c77355c54e586c9b97256c07d1b3a2fa4ef5f32d27ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%224CTQYFV0nehbNUeo1bmlPVz_JuBSaR4L%22%3B%7D; _csrf-frontend=bca9c01bb326995be1d452a6fe31ee537b9bfb362bf0b19b483afd07d006593da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22oINcBRLXaR1YNgBzQYJ0VxONQAhjbFFh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1568882502.753
+    'REQUEST_TIME' => 1568882502
+]
