@@ -1810,3 +1810,103 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1568882502.753
     'REQUEST_TIME' => 1568882502
 ]
+2019-09-26 09:00:13 [::1][-][222828epv32vof9ndr426snh25][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:695
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(695): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php(621): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#8 [internal function]: frontend\controllers\SiteController->actionIndex()
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#13 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2advanced' in C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\db\Connection.php:632
+Stack trace:
+#0 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\views\site\index.php(6): yii\db\Connection->open()
+#1 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', '[]')
+#3 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\CED59-5902041620032\assignment8\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\CED59-5902041620032\assignment8\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+Additional Information:
+
+2019-09-26 09:00:13 [::1][-][222828epv32vof9ndr426snh25][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Pycharm-4854c6e3' => '6458e503-4d88-4553-9cd5-f9e6077dd0d3'
+    'advanced-frontend' => '222828epv32vof9ndr426snh25'
+    '_csrf-frontend' => 'fe991040bce9ec5406768abf0f8d9a863de828cd3700cb77c859e8ed2d7bfc6ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fjtJGWEiNhr7ewTXF9_jpYsj2nkgm2My\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'Pycharm-4854c6e3=6458e503-4d88-4553-9cd5-f9e6077dd0d3; advanced-frontend=222828epv32vof9ndr426snh25; _csrf-frontend=fe991040bce9ec5406768abf0f8d9a863de828cd3700cb77c859e8ed2d7bfc6ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fjtJGWEiNhr7ewTXF9_jpYsj2nkgm2My%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Python37\\Scripts\\;C:\\Python37\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\Palm\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.2\\bin;;D:\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Palm\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.39 (Win64) OpenSSL/1.0.2s PHP/7.1.31 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.39 (Win64) OpenSSL/1.0.2s PHP/7.1.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/CED59-5902041620032/assignment8/frontend/web/index.php'
+    'REMOTE_PORT' => '54521'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/CED59-5902041620032/assignment8/frontend/web/'
+    'SCRIPT_NAME' => '/CED59-5902041620032/assignment8/frontend/web/index.php'
+    'PHP_SELF' => '/CED59-5902041620032/assignment8/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1569481213.769
+    'REQUEST_TIME' => 1569481213
+]
