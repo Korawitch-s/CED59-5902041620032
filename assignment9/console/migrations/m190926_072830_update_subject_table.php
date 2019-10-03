@@ -12,10 +12,10 @@ class m190926_072830_update_subject_table extends Migration
      */
     public function safeUp()
     {
-        $this->addColumn('subject','create_at', $this->integer());
-        $this->addColumn('subject','create_by', $this->integer());
+        $this->addColumn('subject','created_at', $this->integer());
+        $this->addColumn('subject','created_by', $this->integer());
         $this->addColumn('subject','updated_at', $this->integer());
-        $this->addColumn('subject','update_by', $this->integer());
+        $this->addColumn('subject','updated_by', $this->integer());
     }
 
     /**
